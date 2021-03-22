@@ -6,4 +6,4 @@ This project is to test my skills in the following by creating shapes using;
 - relative and absolute positioning
 - CSS transforms also.
 
-The goal is to create 26 unique shapes and more if I can, and through the process of expanding my reasoning of finding simplier and easier solutions to each shapes I encounter.
+The goal is to create 26 unique shapes and more if I can, and through the process, expand my reasoning of finding simplier and easier solutions to each shapes I encounter.
