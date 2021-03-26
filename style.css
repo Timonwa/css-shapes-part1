@@ -72,7 +72,7 @@ p {
   -o-transform: rotate(-45deg);
 }
 /* semi-circle1 */
-.semi-circle1{
+.semi-circle1 {
   width: 100px;
   height: 50px;
   background-color: var(--bg);
@@ -130,7 +130,7 @@ p {
   -o-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 /* pill */
-.pill{
+.pill {
   width: 100px;
   height: 50px;
   background-color: var(--bg);
@@ -168,6 +168,41 @@ p {
   width: 160px;
   height: 100px;
 }
+/* trapezoid */
+.trapezoid {
+  width: 100px;
+  height: 101px;
+  background-color: var(--bg);
+  /* position: absolute; */
+}
+.trapezoid::before {
+  content: "";
+  position: absolute;
+  display: block;
+  border-left: solid 40px transparent;
+  border-bottom: solid 100px var(--bg);
+  top: 49px;
+  left: 29px;
+}
+.trapezoid::after {
+  content: "";
+  position: absolute;
+  border-right: solid 20px transparent;
+  border-bottom: solid 100px var(--bg);
+  top: 49px;
+  right: 49px;
+}
+/* parallelogram */
+.parallelogram {
+  width: 120px;
+  height: 100px;
+  background-color: var(--bg);
+  transform: skewX(340deg);
+  -webkit-transform: skewX(340deg);
+  -moz-transform: skewX(340deg);
+  -ms-transform: skewX(340deg);
+  -o-transform: skewX(340deg);
+}
 /* diamond1 */
 .diamond1 {
   width: 100px;
@@ -192,30 +227,6 @@ p {
   border-bottom-color: var(--bg);
   top: -6px;
   left: 84px;
-}
-/* parallelogram */
-.trapezoid {
-  width: 100px;
-  height: 101px;
-  background-color: var(--bg);
-  /* position: absolute; */
-}
-.trapezoid::before {
-  content: "";
-  position: absolute;
-  display: block;
-  border-left: solid 40px transparent;
-  border-bottom: solid 100px var(--bg);
-  top: 49px;
-  left: 29px;
-}
-.trapezoid::after {
-  content: "";
-  position: absolute;
-  border-right: solid 20px transparent;
-  border-bottom: solid 100px var(--bg);
-  top: 49px;
-  right: 49px;
 }
 /* star */
 .star {
